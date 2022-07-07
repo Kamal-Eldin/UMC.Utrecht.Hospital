@@ -169,6 +169,6 @@ class score_model:
         """
         y_pred = self.estimator.predict_proba(X).ravel()
         flags = ['CLEAR', 'SEPSIS SUSPICION']
-        message= flags[0] if y_pred[1] < .threshold else flags[1]
+        message= flags[0] if y_pred[1] < threshold else flags[1]
         out = f"----------------\n{message}\n----------------"
         return out
