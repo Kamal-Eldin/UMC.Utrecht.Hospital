@@ -73,7 +73,7 @@ Below is the distributions of gestation age and gender in both the case and cont
 
 <p align="center">
     <img src= './plots/gestation_dist.png' width= 500>
-    <img src= './plots/gender_dist.png ' width= 350></br>
+    <img src= './plots/gender_dist.png ' width= 300></br>
     <i><b>Fig-3: Left:</b> Gestation age distributions | <b>Right:</b> Gender distributions</i></br>
 </p>
 
@@ -105,8 +105,8 @@ The model was trained and evaluated using a nested cross validation procedure to
 Below are the results of the cross validation:
 
 <p align="center">
-    <img src= './plots/Test_CV_Iterations.png' width= 500>
-    <img src= './plots/Mean_CV_Scores.png ' width= 320></br>
+    <img src= './plots/Test_CV_Iterations.png' width= 600>
+    <img src= './plots/Mean_CV_Scores.png ' width= 250></br>
     <img src= './plots/Train_Test_CV_Iterations.png' width= 750></br>
     <i><b>Fig-5: Left:</b> Test scores per CV iteration | <b>Right:</b> Mean test AUCPR & AUCROC scores | <b>Bottom:</b> Train Vs test performance</i></br>
 </p>
