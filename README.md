@@ -105,7 +105,7 @@ The model was trained and evaluated using a nested cross validation procedure to
 Below are the results of the cross validation:
 
 <p align="center">
-    <img src= './plots/Test_CV_Iterations.png' width= 600>
+    <img src= './plots/Test_CV_Iterations.png' width= 550>
     <img src= './plots/Mean_CV_Scores.png ' width= 250></br>
     <img src= './plots/Train_Test_CV_Iterations.png' width= 750></br>
     <i><b>Fig-5: Left:</b> Test scores per CV iteration | <b>Right:</b> Mean test AUCPR & AUCROC scores | <b>Bottom:</b> Train Vs test performance</i></br>
