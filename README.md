@@ -72,8 +72,8 @@ Out of the 2618 patients, 422 patients were identified as the case group, while 
 Below is the distributions of gestation age and gender in both the case and control groups.
 
 <p align="center">
-    <img src= './plots/gestation_dist.png' width= 550>
-    <img src= './plots/gender_dist.png ' width= 400></br>
+    <img src= './plots/gestation_dist.png' width= 500>
+    <img src= './plots/gender_dist.png ' width= 350></br>
     <i><b>Fig-3: Left:</b> Gestation age distributions | <b>Right:</b> Gender distributions</i></br>
 </p>
 
@@ -105,7 +105,7 @@ The model was trained and evaluated using a nested cross validation procedure to
 Below are the results of the cross validation:
 
 <p align="center">
-    <img src= './plots/Test_CV_Iterations.png' width= 600>
+    <img src= './plots/Test_CV_Iterations.png' width= 500>
     <img src= './plots/Mean_CV_Scores.png ' width= 320></br>
     <img src= './plots/Train_Test_CV_Iterations.png' width= 750></br>
     <i><b>Fig-5: Left:</b> Test scores per CV iteration | <b>Right:</b> Mean test AUCPR & AUCROC scores | <b>Bottom:</b> Train Vs test performance</i></br>
@@ -113,8 +113,8 @@ Below are the results of the cross validation:
 
 #### AVERAGE PRECISION AND AUCROC IN THE OPTIMISTIC CASE
 <p align="center">
-    <img src= './plots/AP.png' width= 450>
-    <img src= './plots/AUC_ROC.png ' width= 450></br>
+    <img src= './plots/AP.png' width= 400>
+    <img src= './plots/AUC_ROC.png ' width= 400></br>
     <i><b>Fig-5: Left:</b> Average precision curve (0.95) | <b>Right:</b> ROC curve (0.93) </i></br>
 </p>
 
