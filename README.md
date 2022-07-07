@@ -35,7 +35,6 @@ The training features included 10 out of 13 physilogical features, plus 2 profil
 | O2 Saturation                    |
 | Gestation Age |
 | Gender |
-||
 
 #### MISSING DATA
 Due to the nature of medical interaction with incubated newborns, not all physiological markers are continuously recorded thus resulting in significant volume of missing data for some features. Missing data could amount to more than 80% of a physiological marker. The mechanism driving missing data is often related to the technique of measurement, which mostly is invasive (i.e., requires penetration of an infant's skin). Invasion could present its own potential infection risk or might even be impossible due to the fragility of the tissues. Below is a graph of the percentage of data missingness per feature.
@@ -73,7 +72,7 @@ Out of the 2618 patients, 422 patients were identified as the case group, while 
 Below is the distributions of gestation age and gender in both the case and control groups.
 
 <p align="center">
-    <img src= './plots/gestation_dist.png' width= 600>
+    <img src= './plots/gestation_dist.png' width= 550>
     <img src= './plots/gender_dist.png ' width= 400></br>
     <i><b>Fig-3: Left:</b> Gestation age distributions | <b>Right:</b> Gender distributions</i></br>
 </p>
@@ -106,7 +105,7 @@ The model was trained and evaluated using a nested cross validation procedure to
 Below are the results of the cross validation:
 
 <p align="center">
-    <img src= './plots/Test_CV_Iterations.png' width= 680>
+    <img src= './plots/Test_CV_Iterations.png' width= 600>
     <img src= './plots/Mean_CV_Scores.png ' width= 320></br>
     <img src= './plots/Train_Test_CV_Iterations.png' width= 750></br>
     <i><b>Fig-5: Left:</b> Test scores per CV iteration | <b>Right:</b> Mean test AUCPR & AUCROC scores | <b>Bottom:</b> Train Vs test performance</i></br>
@@ -114,8 +113,8 @@ Below are the results of the cross validation:
 
 #### AVERAGE PRECISION AND AUCROC IN THE OPTIMISTIC CASE
 <p align="center">
-    <img src= './plots/AP.png' width= 500>
-    <img src= './plots/AUC_ROC.png ' width= 500></br>
+    <img src= './plots/AP.png' width= 450>
+    <img src= './plots/AUC_ROC.png ' width= 450></br>
     <i><b>Fig-5: Left:</b> Average precision curve (0.95) | <b>Right:</b> ROC curve (0.93) </i></br>
 </p>
 
