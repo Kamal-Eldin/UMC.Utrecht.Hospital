@@ -3,7 +3,7 @@
 The data science team in UMC [Utrecht hospital](https://www.umcutrecht.nl/en) led by [Annemarie van 't Veen](https://www.linkedin.com/posts/annemarie-van-t-veen-5b62719_ai4health-studentchallenge-digitalhealth-activity-6947080636947943424-h13F?utm_source=linkedin_share&utm_medium=member_desktop_web), collaborated with [FruitPunch AI](https://www.fruitpunch.ai/), to develop an early warning model that would predict the onset of sepsis "acute infection" in preterm newborns, hospitalized in the neonatal intensive care unit (NICU).
 This repo showcases the solution developed within the span of this project. Please, refer to the notebook below for a walkthrough:
 
-<a href="https://drive.google.com/file/d/1T_FhXtilH0KV7gWQ2_bJwDKHE9rgY6x1/view?usp=sharing" target="_blank">
+<a href="https://colab.research.google.com/drive/1T_FhXtilH0KV7gWQ2_bJwDKHE9rgY6x1" target="_blank">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
