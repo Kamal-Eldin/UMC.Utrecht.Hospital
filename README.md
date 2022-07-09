@@ -118,7 +118,7 @@ Below are the results of the cross validation:
     <i><b>Fig-5: Left:</b> Average precision curve (0.95) | <b>Right:</b> ROC curve (0.93) </i></br>
 </p>
 
-### EXPLAINABILTY WITH SHAP
+### EXPLAINABILITY WITH SHAP
 [Simon Sukup](https://www.linkedin.com/in/%C5%A1imon-sukup-7574b4218/) developed a prediction interpretability analysis of the XGBoost model using SHAP.
 
 
