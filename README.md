@@ -8,7 +8,7 @@ This repo showcases the solution developed within the span of this project. Plea
 </a>
 
 or download the notebook in this repo at </br>
- <a href="./Modeling_Walkthrough.ipynb" target="_blank">Modeling_Walkthrough.ipynb.ipynb</a> 
+ <a href="./Modeling_Walkthrough.ipynb" target="_blank">Modeling_Walkthrough.ipynb</a> 
 </br>
 
 ## PROBLEM STATMENT
